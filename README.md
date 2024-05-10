@@ -12,11 +12,7 @@ This repository hosts the project on analyzing Reddit posts from the Petioles su
   - [Emotional Analysis with BERT](#emotional-analysis-with-bert)
   - [LLM Model and Prompt Engineering](#llm-model-and-prompt-engineering)
 - [Findings](#findings)
-- [Project Deliverables](#project-deliverables)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributors](#contributors)
-- [License](#license)
+
 
 ## Project Overview
 Cannabis, also known as marijuana, is one of the most used psychoactive substances. In 2023, 17% of Americans reported that they smoke marijuana, and approximately half of the population stated that they have tried it at some point. However, some users seek to quit for various personal, health, or professional reasons.
@@ -78,13 +74,15 @@ The dataset contains Reddit posts from the Petioles subreddit:
   - Correlated emotional scores with user interactions like upvotes.
 
 ### LLM Model and Prompt Engineering
-- **Model Used:** ChatGPT-4 for its advanced natural language understanding and generation capabilities.
-- **Prompt Engineering:** Customized prompts were designed to extract specific information and insights from the data.
+- **Model Used:** ChatGPT-4 for its advanced natural language understanding and generation capabilities, ideal for extracting and interpreting complex user sentiments and narratives from Reddit posts.
+- **Prompt Engineering:** Customized prompts were designed to extract specific information and insights from the data, optimizing the performance of the LLMs in context-specific analyses.
 - **Application of LLM in Project:**
   - **Theme Identification**
   - **Reason Identification**
   - **Strategy Identification**
   - **Support Identification**
+- **Zero-Shot Text Classification:**
+  - Utilized for classifying posts into predefined categories without explicit examples of each category. This method leverages the model's general understanding of language to classify text based on the content's similarity to the category descriptions provided.
 
 ## Findings
 1. Approximately 20% of users consume cannabis for recreational enjoyment and relaxation, while 30% discontinue use due to health concerns.
@@ -93,20 +91,3 @@ The dataset contains Reddit posts from the Petioles subreddit:
 4. Sentiments expressed in the posts are generally positive, but positivity has declined in recent years, likely due to COVID-19.
 5. Emotional analysis reveals significant expressions of sadness and fear during the quitting process.
 6. A significant increase in posts and user engagement was observed from 2020 onward, likely related to increased stress levels during the pandemic.
-
-## Project Deliverables
-- **Presentation Deck:** Detailed Presentation of Analysis [Detailed Presentation Deck.pptx](path/to/Detailed_Presentation_Deck.pptx)
-- **Code Notebooks:**
-  - [Theme Analysis](path/to/Basic_analysis_on_Theme.ipynb)
-  - [Sentiment Analysis using VADER](path/to/Sentiment_Analysis_using_VADER.ipynb)
-  - [Emotion Scores using BERT](path/to/Emotion_scores_using_BERT.ipynb)
-  - [Regression Analysis on Full Post](path/to/Regression_Analysis_on_Full_Post.ipynb)
-  - [Regression Analysis on Post Title](path/to/Regression_Analysis_on_Post_Title.ipynb)
-
-## Installation
-To run the analysis notebooks and reproduce the results, you need Python and Jupyter Notebook. Follow the steps below to install the necessary packages:
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/Karishma2809/Reddit-Post-Analysis.git
-   cd Reddit-Post-Analysis
