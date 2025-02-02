@@ -1,4 +1,5 @@
 # Reddit Post Analysis
+![image](https://github.com/user-attachments/assets/3b779a0f-34cd-4035-a30e-6ed05eff02df)
 
 This repository hosts the project on analyzing Reddit posts from the Petioles subreddit, focusing on cannabis consumption and cessation. The project employs Large Language Models (LLM) and General AI for text mining, along with various natural language processing techniques such as sentiment analysis with VADER and emotional analysis with BERT. The aim is to extract deep insights into the patterns of cannabis use, reasons for cessation, and the emotional and sentiment dynamics within the community discussions.
 
